@@ -25,7 +25,7 @@ read dummy
 #qemu-virgil.arm  -M versatilepb -m 128M -kernel t.bin -serial mon:stdio
 #qemu-system-arm  -M versatilepb -m 128M -kernel t.bin -serial mon:stdio
 #qemu-system-arm  -M versatilepb -m 128M -kernel t.bin -serial mon:stdio
-/home/paul/qemu-4.0-arm/bin/qemu-system-arm  -M versatilepb -m 128M -kernel t.bin -serial mon:stdio
+qemu-system-arm  -M versatilepb -m 128M -kernel t.bin -serial mon:stdio
 
 
 
